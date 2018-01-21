@@ -1,21 +1,15 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
-package ahmad;
-
-/**
- *
- * @author ICTKVPJB
- */
-public class Ahmad {
-
-    /**
-     * @param args the command line arguments
-     */
-    public static void main(String[] args) {
-        // TODO code application logic here
-    }
-    
+class cuaca
+{
+public static void main(String args[])
+{
+String Lokasi="Kota Bahru";
+double suhu=28.6;
+int Kelembapan=78;
+boolean Amaran_Banjir=false;
+System.out.println("Lokasi; "+Lokasi);
+System.out.println("Suhu: "+suhu +"c");
+System.out.println("Kelembapan: "+Kelembapan+"%");
+System.out.println("Amaran_Banjir: "+Amaran_Banjir);
 }
+}
+
